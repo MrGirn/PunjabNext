@@ -1,0 +1,50 @@
+Title,Body,Labels
+EPIC: Platform Foundation (Identity, Consent, Payments),"Goal: Build shared rails for PunjabNext. Includes farmer/provider onboarding, consent, audit, and payments rails.",epic;platform;P0
+Story: Farmer onboarding (Aadhaar/phone) UX,"As a farmer, I can onboard with phone OTP + optional Aadhaar eKYC, select language (Punjabi/Hindi), and create my profile. Acceptance: OTP verified, profile created, language saved.",story;platform;P0
+Story: Provider onboarding (CHC/tractor owner/operator),"As a provider, I can register business type (CHC/Owner/Operator), service area, equipment list, and payout method. Acceptance: provider profile + equipment created.",story;platform;P0
+Story: Role-based access control (RBAC),"Implement roles: Farmer, Provider, Buyer, BankAgent, GovtAdmin. Acceptance: API + UI permissions enforced.",story;security;platform;P0
+Story: Consent & data sharing module,"Farmer can grant/revoke consent to share data with bank/insurer/buyer. Acceptance: consent ledger + audit trail.",story;platform;privacy;P0
+Story: UPI payment integration (basic),"Support UPI intent/QR payment for bookings and receipts. Acceptance: payment success/failure stored + downloadable receipt.",story;payments;platform;P0
+Story: Wallet ledger (transactions + receipts),"Maintain immutable transaction ledger for farmer/provider. Acceptance: every payment creates ledger entry + receipt ID.",story;platform;payments;P0
+Story: Notifications (SMS/WhatsApp hooks placeholder),"Send booking/payment/status updates via SMS/WhatsApp integration placeholders. Acceptance: notification events logged.",story;platform;P1
+
+EPIC: Mechanization Marketplace (CHC + Pay-per-Use),"Goal: Machinery-as-a-Service to reduce ownership debt. Booking, dispatch, proof-of-service, settlement.",epic;mechanization;P0
+Story: Equipment catalog + pricing,"Provider can list equipment/implements, rates (per hour/per acre), availability. Acceptance: searchable catalog.",story;mechanization;P0
+Story: Search CHC/providers by village/tehsil,"Farmer searches by location + service type and sees ranked providers. Acceptance: results with distance + ETA.",story;mechanization;P0
+Story: Booking flow (schedule + job details),"Farmer requests service (type, acres, date/time, location). Acceptance: booking created with status.",story;mechanization;P0
+Story: Dispatch & acceptance by provider,"Provider can accept/decline bookings, assign operator, update ETA. Acceptance: status transitions tracked.",story;mechanization;P0
+Story: Proof-of-service (GPS + photo + timestamps),"Capture start/stop, geo-tag, photos, operator signature. Acceptance: proof attached, tamper-evident hash stored.",story;mechanization;P0
+Story: Settlement release to provider,"After proof verified, release payment to provider and generate invoice/receipt. Acceptance: settlement completed.",story;mechanization;payments;P0
+Story: Dispute workflow (farmer/provider),"Allow disputes within N hours; hold settlement if disputed. Acceptance: dispute ticket + resolution status.",story;mechanization;P1
+
+EPIC: Credit Enablement (Usage-based, KCC-aligned),"Goal: Make credit healthier by linking to verified activity and input spend. Not replacing banks—connecting rails.",epic;credit;P0
+Story: Farm activity timeline (bookings + crop cycle),"Create farmer activity timeline from mechanization usage and self-reported crop stage. Acceptance: timeline visible.",story;credit;P0
+Story: Input spend tracking (optional upload/scan),"Farmer logs input purchases (manual or receipt upload). Acceptance: categorized spend per acre.",story;credit;P1
+Story: Credit readiness score v1 (rules-based),"Score using activity trail, punctual payments, seasonality. Acceptance: score generated + explainable factors.",story;credit;P0
+Story: Bank/agent portal (lead intake),"Bank agent views leads, verifies docs, marks stage. Acceptance: pipeline stages + notes.",story;credit;P1
+Story: Restricted credit wallet rules (inputs-only) concept,"Define policy for restricting spend categories. Acceptance: rules engine stub + tags.",story;credit;P2
+Story: Insurance trigger model placeholder,"Define satellite/weather trigger data model and payout workflow stub. Acceptance: event-driven payout mock.",story;insurance;credit;P2
+
+EPIC: Market Linkage (Price, Buyers, Settlement),"Goal: Improve returns by reducing distress sales and expanding buyer access with price intelligence.",epic;market;P0
+Story: Mandi price feed ingestion (manual + API-ready),"Ingest daily mandi prices (CSV/manual first, API later). Acceptance: district crop price charts.",story;market;P0
+Story: Price alerts + best-sell window nudges,"Farmer sets crop + target price; system alerts. Acceptance: alerts sent + logged.",story;market;P1
+Story: Create listing (crop lot + quality attributes),"Farmer posts listing with quantity, moisture, grade, photos. Acceptance: listing searchable.",story;market;P0
+Story: Buyer bidding & offer acceptance,"Buyers submit bids; farmer accepts; generates order. Acceptance: order created + status tracked.",story;market;P0
+Story: Logistics quote & scheduling placeholder,"Integrate logistics as module stub (manual partner first). Acceptance: pickup scheduled + status updates.",story;market;P2
+Story: Escrow settlement for trade,"Hold buyer funds; release on delivery confirmation. Acceptance: escrow ledger entries + release rules.",story;market;payments;P1
+
+EPIC: Data & KPI Dashboard (Punjab outcomes),"Goal: Track success metrics: cost/acre reduction, rental adoption, distress sales reduction, payment speed.",epic;analytics;P0
+Story: KPI definitions + calculation service,"Implement KPI engine: rental usage %, cost/acre, time-to-payment, distress sale proxy. Acceptance: API outputs.",story;analytics;P0
+Story: Farmer dashboard (simple, voice-friendly),"Show: cost/acre, bookings, payments, price alerts. Acceptance: usable in low literacy context.",story;analytics;P0
+Story: Govt dashboard (district heatmaps) v1,"District metrics for adoption, service volume, payment speed. Acceptance: filters by tehsil/district.",story;analytics;P1
+Story: Audit logs + transparency reports,"Generate reports for subsidies/settlements/disputes. Acceptance: exportable CSV + role-limited.",story;analytics;security;P1
+
+EPIC: Security & Compliance (India-ready),"Goal: Build trust: privacy, audit, secure storage, DPDP-aligned practices.",epic;security;P0
+Story: Data classification + retention policy,"Define data classes and retention windows. Acceptance: documented + enforced in code config.",story;security;P1
+Story: Secure storage for proofs (S3-like) + encryption,"Store proof-of-service photos securely with encryption at rest. Acceptance: signed URLs + access control.",story;security;P0
+Story: Threat model + abuse prevention,"Prevent fake proofs, location spoofing signals, rate-limit endpoints. Acceptance: controls + monitoring.",story;security;P1
+
+EPIC: Pilot Operations (Punjab rollout playbook),"Goal: Run a district pilot with CHCs, banks, and selected crops (wheat/paddy).",epic;ops;P0
+Story: District pilot selection + onboarding checklist,"Create checklist: CHC onboarding, bank partner, mandi price source, helpline. Acceptance: pilot kit in docs.",story;ops;P0
+Story: Training modules (farmer/provider) in Punjabi,"Scripts + screenshots + short videos outline. Acceptance: training content ready.",story;ops;P1
+Story: Field support ticketing (helpline),"Basic ticket system for pilot. Acceptance: tickets created, routed, resolved.",story;ops;P1
