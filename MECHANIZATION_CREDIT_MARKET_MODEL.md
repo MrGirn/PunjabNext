@@ -288,7 +288,7 @@ Market-first → Guarantees PROFITABLE sale
 ### Andhra Pradesh Model:
 - Rythu Bharosa Kendras (RBKs) reduced mechanization costs by 65%
 - Digital credit linkage increased institutional credit by 300%
-- 2.5 lakh farmers moved from informal to formal credit
+- 2.5 lakhs farmers moved from informal to formal credit
 
 ### Gujarat's FPO Success:
 - 500+ FPOs facilitating ₹10,000 crore business annually
@@ -296,7 +296,7 @@ Market-first → Guarantees PROFITABLE sale
 - 90%+ repayment rates on FPO-mediated credit
 
 ### Madhya Pradesh's CHC Network:
-- 1,000+ CHCs serving 5 lakh farmers
+- 1,000+ CHCs serving 5 lakhs farmers
 - 70% reduction in mechanization costs
 - 85% utilization rates ensuring sustainability
 

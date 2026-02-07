@@ -296,7 +296,7 @@ This document defines the data collection, monitoring, and evaluation framework 
 +----------------------------------------------------------+
 | MARKET PERFORMANCE                                        |
 | Contract Value: ₹1,800 Cr | Price Realization: 116% MSP |
-| Transaction Volume: 8.5 lakh MT | Losses: 12%            |
+| Transaction Volume: 8.5 lakhs MT | Losses: 12%            |
 +----------------------------------------------------------+
 | IMPACT (vs Baseline)                                      |
 | Debt Reduction: 35% | Income Increase: 32%              |
