@@ -81,7 +81,7 @@ The model offers you:
 
 ### For Investors & Partners:
 - **Proven model** with case studies from other states
-- **Financial sustainability** in 5-6 years (operational break-even earlier)
+- **Financial sustainability** in 5-6 years (operational break-even in 3-4 years)
 - **Social impact** reaching 400,000+ farmers
 - **ROI**: 2.5x in 5 years
 - **Scalability** across Punjab and other states

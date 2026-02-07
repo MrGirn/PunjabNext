@@ -189,6 +189,11 @@ Pricing Examples (per acre):
 - Seeding: ₹400-500 (Market: ₹600-800)
 
 Target: 30-40% cheaper than market rates
+
+Financial Note:
+- CHCs target operational break-even in 3-4 years (OPEX covered by revenue)
+- Overall program break-even in 5-6 years (including CAPEX recovery)
+- This pricing enables both farmer savings AND financial sustainability
 ```
 
 ### Credit Operations

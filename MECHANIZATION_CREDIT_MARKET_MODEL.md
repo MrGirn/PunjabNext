@@ -250,8 +250,8 @@ Market-first → Guarantees PROFITABLE sale
 5. Government subsidies (declining over time)
 
 ### Break-even Timeline:
-- CHCs: 3-4 years
-- Overall model: 5-6 years
+- CHCs (operational): 3-4 years
+- Overall model (including CAPEX recovery): 5-6 years
 - Long-term: Self-sustaining with 15-20% annual returns
 
 ## Risk Mitigation
