@@ -7,7 +7,7 @@ For Punjab (India), a Mechanization + Credit + Market-first model isn't just log
 ## The Root Problem
 
 Punjab farmers face a perfect storm of challenges:
-- **Debt Crisis**: Over 90% of farmers are in debt, with average debt of ₹1.5-2 lakh per hectare
+- **Debt Crisis**: Over 90% of farmers are in debt, with average debt of ₹1.5-2 lakhs per hectare
 - **Rising Input Costs**: Mechanization costs, seeds, fertilizers, and labor costs continue to increase
 - **Market Uncertainty**: Lack of assured markets and price volatility
 - **Credit Trap**: High-interest informal credit perpetuates the debt cycle

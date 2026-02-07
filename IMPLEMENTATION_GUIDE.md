@@ -405,6 +405,8 @@ Total: ₹1.8 crores
 Net Requirement: ₹12.7 crores (to be funded by government/grants)
 
 Year 2-3: OPEX reduces to ₹3 crores, Revenue increases to ₹3+ crores
+Note: This represents operational break-even at CHC level. Overall program 
+break-even (including CAPEX recovery) achieved in 5-6 years.
 ```
 
 ## Risk Management
