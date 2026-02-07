@@ -190,9 +190,11 @@ Pricing Examples (per acre):
 
 Target: 30-40% cheaper than market rates
 
-Financial Note:
-- CHCs target operational break-even in 3-4 years (OPEX covered by revenue)
-- Overall program break-even in 5-6 years (including CAPEX recovery)
+Financial Sustainability Note:
+- CHCs target operational break-even in 3-4 years
+  (OPEX = Operating Expenses covered by revenue)
+- Overall program break-even in 5-6 years
+  (including CAPEX = Capital Expenditure recovery)
 - This pricing enables both farmer savings AND financial sustainability
 ```
 

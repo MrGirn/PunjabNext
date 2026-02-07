@@ -15,7 +15,7 @@ PunjabNext is a comprehensive framework to address the farmer debt crisis in Pun
 ## The Problem
 
 Punjab's farmers face unprecedented challenges:
-- **90%+ farmers are in debt**, averaging ₹1.5-2 lakhs per hectare
+- **90%+ farmers are in debt**, averaging ₹1.5-2.0 lakhs per hectare
 - **High mechanization costs** that individual farmers cannot afford
 - **18-36% interest rates** from informal lenders
 - **Market uncertainty** and price volatility

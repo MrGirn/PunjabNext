@@ -4,6 +4,11 @@
 
 This document defines the data collection, monitoring, and evaluation framework for tracking the success of the three-pillar model.
 
+**Note on Number Systems**: This document uses Indian number formatting:
+- Lakh = 100,000 (1,00,000)
+- Crore (Cr) = 10,000,000 (1,00,00,000)
+- MT = Metric Tons
+
 ## Data Architecture
 
 ### Data Sources
